@@ -27,4 +27,6 @@ def main(argv=sys.argv[1:]):
         case "init" : cmd_init(args)
         case "log" : cmd_log(args)
         case "ls-files" : cmd_ls_files(args)
+        case "ls-tree" : cmd_ls_tree(args)
+        
         
